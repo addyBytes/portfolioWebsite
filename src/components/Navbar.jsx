@@ -70,7 +70,7 @@ function Navbar({ navItems, activeSection, theme, onToggleTheme }) {
             {theme === "dark" ? "Light" : "Dark"}
           </button>
           <a
-            href="https://ssmpvfkczpuimnrlixkz.supabase.co/storage/v1/object/public/assests/AdityaResume%20(1).pdf"
+            href="https://ssmpvfkczpuimnrlixkz.supabase.co/storage/v1/object/public/assests/AdityaKapoorResume.pdf"
             download
             data-magnetic
             className="hover-glow magnetic-target inline-flex items-center gap-2 rounded-full bg-accent px-4 py-2.5 text-sm font-semibold text-white shadow-glow transition-transform duration-300"
