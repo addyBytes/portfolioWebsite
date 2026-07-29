@@ -12,7 +12,7 @@ const projects = [
       "Integrated Google Gemini API and YouTube Data API to automate analysis workflows and improve content-strategy accuracy.",
       "Responsive React dashboard visualizing channel analytics and AI-generated recommendations.",
     ],
-    github: "https://github.com/addyBytes",
+    github: "https://github.com/addyBytes/CreatorIQ-AI",
     demo: "#contact",
   },
   {
@@ -36,8 +36,8 @@ const projects = [
       "Cloudinary integration for scalable image storage and optimized media delivery.",
       "Search and filter by location, price range, and amenities.",
     ],
-    github: "https://github.com/addyBytes",
-    demo: "#contact",
+    github: "https://github.com/addyBytes/WanderHotels",
+    demo: "https://wanderhotels.onrender.com",
   },
 ];
 
