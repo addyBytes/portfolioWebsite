@@ -1,0 +1,18 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#050507"/>
+  <circle cx="940" cy="170" r="210" fill="#4F7CFF" fill-opacity="0.2" filter="url(#blur1)"/>
+  <circle cx="250" cy="470" r="180" fill="#4F7CFF" fill-opacity="0.12" filter="url(#blur2)"/>
+  <text x="88" y="210" fill="#F5F7FF" font-size="72" font-family="Space Grotesk, Inter, sans-serif" font-weight="700">Aditya Kapoor</text>
+  <text x="88" y="290" fill="#A8B0C7" font-size="34" font-family="Inter, sans-serif">Full-Stack Engineer | AI Integrations | Real-Time Systems</text>
+  <rect x="88" y="360" width="470" height="150" rx="28" fill="rgba(15, 16, 24, 0.72)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="126" y="420" fill="#F5F7FF" font-size="28" font-family="Inter, sans-serif" font-weight="600">Portfolio website built with React, Vite, Tailwind, and Framer Motion.</text>
+  <text x="126" y="468" fill="#A8B0C7" font-size="24" font-family="Inter, sans-serif">Premium dark UI, animated sections, and production-ready structure.</text>
+  <defs>
+    <filter id="blur1" x="520" y="-150" width="840" height="840" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="80"/>
+    </filter>
+    <filter id="blur2" x="-60" y="160" width="620" height="620" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+  </defs>
+</svg>

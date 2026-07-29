@@ -1,0 +1,32 @@
+<svg width="1200" height="1400" viewBox="0 0 1200 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1080" y2="1360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1020"/>
+      <stop offset="1" stop-color="#050507"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 340) rotate(90) scale(620 620)">
+      <stop stop-color="#4F7CFF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#4F7CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(340 1080) rotate(90) scale(460 460)">
+      <stop stop-color="#4F7CFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4F7CFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="0" y="0" width="1200" height="1400" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1400" rx="72" fill="url(#bg)"/>
+  <circle cx="900" cy="280" r="260" fill="url(#glow)" filter="url(#blur)"/>
+  <circle cx="320" cy="1060" r="210" fill="url(#glow2)" filter="url(#blur)"/>
+  <rect x="104" y="100" width="992" height="1200" rx="56" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="600" cy="560" r="182" fill="rgba(79,124,255,0.12)" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="600" cy="490" r="120" fill="rgba(255,255,255,0.06)"/>
+  <path d="M472 832c24-124 82-197 128-197s104 73 128 197" stroke="rgba(255,255,255,0.12)" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="600" cy="491" r="84" fill="#101521"/>
+  <circle cx="565" cy="471" r="10" fill="#F5F7FF"/>
+  <circle cx="635" cy="471" r="10" fill="#F5F7FF"/>
+  <path d="M560 522c11 11 26 17 40 17s29-6 40-17" stroke="#F5F7FF" stroke-width="10" stroke-linecap="round"/>
+  <text x="600" y="1048" text-anchor="middle" fill="#F5F7FF" font-size="54" font-family="Space Grotesk, Inter, sans-serif" font-weight="700">Aditya Kapoor</text>
+  <text x="600" y="1102" text-anchor="middle" fill="#A8B0C7" font-size="24" font-family="Inter, sans-serif">Full-Stack Engineer · AI Integrations · Real-Time Systems</text>
+</svg>
